@@ -18,6 +18,8 @@ Calendario bissexto
 
 ### Agora, irei explicar alguns comandos que aprendi enquanto realizava esse projeto:
 
-`%1 e %2` Descobri que esse comando classifica os parametros por ordem. Exemplo - digitei 111 e 222 - %1 é 111 e %2 é 222.
-`set /a "resto=%1 + 4"` Nessa linha, defini uma variavel e atribui uma conta a ela (%1 + 4).
-`If e Else` Apesar de conhecer essa definição, precisei aprender como atribui - la 
+>`%1 e %2` Descobri que esse comando classifica os parametros por ordem. Exemplo - digitei 111 e 222 - %1 é 111 e %2 é 222.
+
+>`set /a "resto=%1 + 4"` Nessa linha, defini uma variavel e atribui uma conta a ela (%1 + 4).
+
+>`If e Else` Apesar de conhecer essa definição, precisei aprender como atribui - la 
