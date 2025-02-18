@@ -96,7 +96,7 @@ if not exist "%2" (
 cd "%2"
 ```
 
-#### Nessa parte, garanti que qualquer coisa que for diferente de 1 a 12 no parametro %2 seja incorreta, assim garantido a "segurança do código". Logo apos, defini que se não existir uma pasta ja existente com o mesmo nome do parametro 1, o código devera cria-la, e o mesmo com o parametro 2. Por ultimo, defini as condições para um ano bissexto, que expliquei no tópico acima.
+#### Nessa parte, garanti que qualquer coisa que for diferente de 1 a 12 no parametro %2 seja incorreta, assim garantido a "segurança do código". Logo após, defini que se não existir uma pasta já existente com o mesmo nome do parametro 1, o código deve cria-la, e o mesmo com o parametro 2. Por ultimo, defini as condições para um ano bissexto, que expliquei no tópico acima.
 <br>
 
 ```bat
@@ -125,4 +125,4 @@ cd ..
 cd ..
 
 ```
-#### Na segunda parte do código, defini a quantidade de dias para cada mês, criando uma variavel **Dias** na mesma linha, com apenas um diferencial no mês de **Fevereiro** aonde cirei outra variavel chamada **dias_fevereiro** que ira mudar se o ano for bissexto ou não. Por ultimo, criei um loop para garantir e automatizar a criação de pastas **dias**, alem de criar uma condição, adicionando as pastas caso não existir.
+#### Na segunda parte do código, defini a quantidade de dias para cada mês, criando uma variavel **Dias** na mesma linha, com apenas um diferencial no mês de **Fevereiro** aonde cirei outra variável chamada **dias_fevereiro** que vai mudar se o ano for bissexto ou não. Por ultimo, criei um loop para garantir e automatizar a criação de pastas **dias**, alem de criar uma condição, adicionando as pastas caso não existir.
