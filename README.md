@@ -131,6 +131,28 @@ cd ..
 <br>
 
 ---
+# MELHORIAS 😄
+
+### Apesar de não conhecer muito da area da programação e no que pode ser feito para otimizar o código, consigo apontar um "problema" que pode ser otimizado, e ele se localiza nesse trecho:
+
+```bat
+if "%2" == "1" set dias=31
+if "%2" == "2" set dias=%dias_fevereiro%
+if "%2" == "3" set dias=31
+if "%2" == "4" set dias=30
+if "%2" == "5" set dias=31
+if "%2" == "6" set dias=30
+if "%2" == "7" set dias=31
+if "%2" == "8" set dias=31
+if "%2" == "9" set dias=30
+if "%2" == "10" set dias=31
+if "%2" == "11" set dias=30
+if "%2" == "12" set dias=31
+
+```
+### Consegui analisar de deduzir que talvez conseguimos diminuir algumas linhas, ja que alguns meses possui a mesma quantidade de dias, assim criando 2 "listas", as dos meses que possuem 30 dias, e a dos meses que possuem 31 dias, (exceto por **fevereiro**, que possui 28 dias apenas)
+
+---
 
 # CONSIDERAÇÕES FINAIS 🏆
 
