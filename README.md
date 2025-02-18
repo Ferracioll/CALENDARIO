@@ -126,3 +126,12 @@ cd ..
 
 ```
 #### Na segunda parte do código, defini a quantidade de dias para cada mês, criando uma variavel **Dias** na mesma linha, com apenas um diferencial no mês de **Fevereiro** aonde cirei outra variável chamada **dias_fevereiro** que vai mudar se o ano for bissexto ou não. Por ultimo, criei um loop para garantir e automatizar a criação de pastas **dias**, alem de criar uma condição, adicionando as pastas caso não existir.
+
+<br>
+<br>
+
+---
+
+# CONSIDERAÇÕES FINAIS 🏆
+
+### Acredito que esse projeto me ajudou muito, principalmente a entender como desenvolver as condições necessárias para desafios específicos, como neste caso do ano bissexto. Além disso, mesmo sem querer, ele me ajudou a trabalhar em equipe, pois, ao sermos apresentados a um desafio complexo, nos unimos e criamos juntos esse código que expliquei acima.
